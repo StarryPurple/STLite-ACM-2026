@@ -11,7 +11,7 @@ namespace sjtu {
 
 template <class T, class Compare = std::less<T>>
 class priority_queue {
-   public:
+public:
     priority_queue();
     priority_queue(const priority_queue&);
     ~priority_queue();
